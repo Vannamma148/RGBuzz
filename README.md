@@ -11,12 +11,12 @@
 
 ## 🚀 Live Demo
 
-👉 [Play Now](https://usestate-nine-omega.vercel.app/)
+👉 [Play Now](https://rg-buzz.vercel.app/)
 
 ## 📦 Installation
 
 ```bash
-  git clone https://github.com/Vannamma148/usestate.git
+  git clone https://github.com/Vannamma148/RGBuzz.git
   cd usestate
   npm install
   npm start

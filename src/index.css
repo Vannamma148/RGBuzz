@@ -1,0 +1,103 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100dvh;
+}
+
+a {
+  font-weight: 500;
+  color: #acabab;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #32caf8;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.color-game {
+  text-align: center;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.color-box:hover {
+  transform: scale(1.05);
+}
+
+.message {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 16px;
+  background: #3d3d3d;
+  color: #fff;
+  border-radius: 1em;
+  transition: transform 0.3s ease; 
+}
+
+button:hover {
+  transform:scale(1.02);
+  border:none;
+}
+button:active {
+  transform: scale(0.95);
+ }
+
+.footer-section {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+

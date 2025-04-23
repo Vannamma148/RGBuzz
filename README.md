@@ -1,12 +1,22 @@
-# React + Vite
+# RGBuzz
+🎨 ColorGuess Game – A fun and simple React game to test your RGB color matching skills. Great for learning useState, useEffect, and event handling in React!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔍 Features
 
-Currently, two official plugins are available:
+- Random RGB color generator
+- Color guessing logic
+- Feedback message for correct/wrong guesses
+- "New Color" button to refresh the game
+- Responsive and styled with CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+👉 [Play Now](https://usestate-nine-omega.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation
+
+```bash
+  git clone https://github.com/Vannamma148/usestate.git
+  cd usestate
+  npm install
+  npm start

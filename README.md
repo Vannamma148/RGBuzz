@@ -17,6 +17,6 @@
 
 ```bash
   git clone https://github.com/Vannamma148/RGBuzz.git
-  cd usestate
+  cd RGBuzz
   npm install
-  npm start
+  npm run dev
